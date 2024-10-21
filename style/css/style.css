@@ -1,0 +1,304 @@
+@font-face {
+  font-family: Mulish-Light;
+  src: url(../../font/Mulish/Mulish-Light.ttf); }
+@font-face {
+  font-family: Mulish-Bold;
+  src: url(../../font/Mulish/Mulish-Bold.ttf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px;
+  font-family: Mulish-Light; }
+
+body {
+  background: #fff8f8; }
+
+h2 {
+  font-size: 3.125rem;
+  color: #035755;
+ }
+
+h3 {
+  font-size: 1.75rem;
+  color: #FA5652; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-size: 1.25rem;
+  color: #4B4F51; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+  .container{
+    margin-block: 3rem;
+  }
+  .Center{
+    margin-inline: 28%;
+  }
+
+.main-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  border-radius: 4rem; }
+
+.primary-button {
+  background-color: #FA5652;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: Mulish-Bold;
+  width: 250px; }
+
+.third-button {
+  border: 2px solid #FA5652;
+  width: 154px;
+  color: #FA5652;
+  font-size: 1.125rem; }
+
+.secondary-button {
+  background-color: rgba(250, 86, 82, 0.15);
+  width: 200px;
+  color: #FA5652;
+  font-size: 1.25rem; }
+
+.navbar .navbar-brand span {
+  display: inline-block;
+  color: #035755;
+  font-size: 1.1875rem;
+  font-family: Mulish-Bold;
+  -webkit-margin-start: 0.5rem;
+     -moz-margin-start: 0.5rem;
+          margin-inline-start: 0.5rem; }
+.navbar .navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+  .navbar .navbar-collapse .navbar-nav {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .navbar .navbar-collapse .navbar-nav .nav-item:not(:last-child) {
+      -webkit-margin-end: 2rem;
+         -moz-margin-end: 2rem;
+              margin-inline-end: 2rem; }
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+      .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        color: #FA5652; }
+      .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+        position: relative;
+        color: #FA5652; }
+        .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active::after {
+          content: '';
+          position: absolute;
+          bottom: -4px;
+          left: 50%;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          -webkit-transform: translateX(-50%);
+                  transform: translateX(-50%);
+          background-color: #FA5652; }
+
+.about-us {
+  position: relative;
+  margin-top: 2rem; }
+  .about-us .about-us-content h2 {
+    margin-block: 0.5rem 1.5rem; 
+
+  }
+  .about-us .about-us-content .main-button {
+    margin-top: 2rem; }
+  .about-us .small-img {
+
+    position: absolute;
+    bottom: -100px;
+    right: 50px;
+    z-index: -1; }
+  .about-us .side-img {
+   
+    position: absolute;
+    bottom: 16px;
+    right: 0;
+    z-index: -1; }
+
+ .hero .align-items-center .about-us-content{
+  padding-inline-start: 5%;
+ }
+
+ .group-rectangle{
+  gap: 1rem;
+  flex-wrap: nowrap;
+ }
+ .group-rectangle .border{
+  background-color: #fff;
+ }
+ .group-rectangle .active{
+  position: relative;
+ }
+ .group-rectangle .active::after{
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 100%;
+  height: 6px;
+  border-radius: 0 0 6px   6px    ;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #FA5652;
+ }
+ 
+.Contagion {
+position: relative;
+ }
+ .Contagion .background{
+  position: absolute;
+  bottom: 20px;
+  z-index: -1;
+  left: 3%;
+}
+ 
+.four-section {
+  position: relative;
+}
+.four-section .background-left {
+  position: absolute;
+  top: 28%;
+  z-index: -1;
+}
+.four-section .background-right1 {
+  position: absolute;
+  bottom: 18%;
+  z-index: -1;
+  right: 2rem;
+}
+.four-section .background-right2 {
+  position: absolute;
+  bottom: 5%;
+  z-index: -1;
+  right: 0;
+}
+
+
+ 
+
+ .icon{
+  background-color: #f9c8c8c2;
+  width: 75px;
+  height:75px;
+  border-radius: 100%;
+  color:#FA5652;
+  font-size: 44px;
+  font-weight: 700;
+
+}
+.num{
+  border-radius: 4rem;
+}
+
+
+.footer .input-feld{
+  position: relative;
+  width: 80%;
+  margin-inline: 10%;
+  margin-top: 2rem;
+}
+ .footer .input-feld  input {
+  border-radius:  3rem ;
+  width: 100%;
+  height:90px;
+  background-color: #fff;
+  border:none;
+  align-items: center;
+  padding-inline-start: 2rem;
+  margin-block: 3rem;
+  
+
+ 
+
+}
+.footer .input-feld a{
+  height: 75px;
+  position: absolute;
+  right: 10px;
+  bottom: 55px;
+  width: 30%;
+}
+.footer .Center h2 {
+  margin-block: 2rem;
+}
+.footer {
+  position: relative;
+}
+.footer .background1{
+  position: absolute;
+  top: 5%;
+  right: 10rem;
+  z-index: -1;
+}
+.footer .background2{
+  position: absolute;
+  bottom: 15%;
+  right: 0rem;
+  z-index: -1;
+}
+
+   
+
+@media (max-width: 991px) {
+  .navbar .navbar-collapse .navbar-nav {
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+            .group-rectangle{
+              display: grid;
+              justify-items: center;
+            }
+            .group-rectangle .shadow-lg{
+              width: 80%;
+            }
+            .Center{
+              margin-inline: 0%;
+            }
+          
+          
+          
+          }
+
+
+
+@media (max-width: 767px) {
+  .about-us .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+          .container{
+            margin-block: 6rem;
+          }
+            .group-rectangle{
+              display: grid;
+              justify-items: center;
+            }
+            .group-rectangle .shadow-lg{
+              width: 80%;
+            }
+           }
